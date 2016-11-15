@@ -1,0 +1,100 @@
+
+#mediaspace_wrapper {
+	visibility: hidden;
+}
+
+
+body * {	
+	background:#fff!important;
+	color : #fff!important;
+	overflow: initial!important;
+}
+
+body * {
+	visibility: hidden!important;
+	display: none!important;
+}
+
+body {
+	overflow: scroll!important;
+	background: #fff!important;
+}
+
+.newbtn{	
+	background : #4285f4!important;	
+	border:none;
+	border-radius: 50%!important;
+	width : 20px;
+	height : 20px;	
+	margin : 10px;
+	
+	padding:0;		
+	font-size : 20px;
+	min-height: auto;
+	box-shadow: none!important;
+}
+
+.newbtn i{
+	color : #4285f4!important;
+}
+
+.newbtn:hover i {
+	color : #07C!important;	
+}
+
+
+
+.gsearchform {
+	
+	right: 0;
+	bottom : 0;
+}
+
+
+
+#searchpanel {
+	position: absolute;
+	top :0;
+}
+#searchpanel .controls {
+	position: fixed;
+	top :0;
+
+	background: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    z-index: 9999999;
+
+}
+#searchpanel, #searchpanel *{
+	display: block!important;
+	visibility: visible!important;
+}
+
+#searchpanel .contents {
+	width : 90%;
+	color : #000!important;
+}
+
+#searchpanel #studyPanel {
+	position: fixed;
+    bottom: 0;
+    font-size: 14px;
+    height: 40px;
+    overflow-y: scroll!important;
+    color: #000!important;
+    width: 80%;
+    right: 0;
+}
+
+body video {
+	position: absolute!important;
+    width: 100px!important;
+    height: 100px!important;
+    bottom: -300px!important;
+    right: 0!important;
+    opacity : 0.5!important;
+    background: #fff!important;
+    z-index:999!important;
+}
