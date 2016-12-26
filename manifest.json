@@ -16,12 +16,7 @@
     },
     "content_scripts": [
     {
-        "matches": ["http://openload.co/*", "https://openload.co/*", "http://*.javseen.com/*",
-         "http://*.javhd.com/*", "http://*.jav789.com/*", "http://*.javstream365.com/*", "http://*.javsfind.com/*", "http://*.javpub.me/*",
-         "http://*.javpub.com/*",
-       "http://*.motherless.com/*",
-       "http://*.prwidgets.com/*",
-       "http://*.javur.com/*", "*://*/*"],
+        "matches": ["http://openload.co/*", "https://openload.co/*",  "*://*/*"],
 
         "js": ["script/jquery-1.12.4.min.js","script/script.js"],
         "css" : ["css/style.css", "css/font-awesome.min.css"]
